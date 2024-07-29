@@ -1,0 +1,37 @@
+services:
+
+  myservice:
+    image: username/dockerhubrepo:latest # pin a minor version series tag instead of latest
+    container_name: myservice
+    environment:
+      - DOMAIN=myservice.example.com # your FQDN or IP; used to define ALLOWED_HOSTS and CSRF_TRUSTED_ORIGINS
+      - SECURE_COOKIES=False # set to True if you use a reverse proxy with tls; enables secure cookie flag and hsts
+    restart: unless-stopped
+    expose:
+      - 8000
+    ports:
+      - 8000:8000
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+      - ./volume-data/database:/opt/app/database
+    #networks:
+    #  - proxy
+    #labels:
+    #  - traefik.enable=true
+    #  - traefik.docker.network=proxy
+    #  - traefik.http.routers.myservice.rule=Host(`myservice.example.com`)
+    #  - traefik.http.services.myservice.loadbalancer.server.port=8000
+    #  # Optional part for traefik middlewares
+    #  - traefik.http.routers.myservice.middlewares=local-ipwhitelist@file
+
+  redis:
+    container_name: myservice-redis
+    image: redis:7.2-alpine
+    restart: unless-stopped
+    #networks:
+    #  - proxy
+    
+#networks:
+#  proxy:
+#    external: true      
