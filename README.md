@@ -72,3 +72,4 @@ Django Ultimate template takes various environment variables to configure `setti
 | `OIDC_OP_AUTHORIZATION_ENDPOINT` | Authorization endpoint URL of the OIDC provider.                                                                | `None`                     | Optional            |
 | `OIDC_OP_TOKEN_ENDPOINT`         | Token endpoint URL of the OIDC provider.                                                                        | `None`                     | Optional            |
 | `OIDC_OP_USER_ENDPOINT`          | User info endpoint URL of the OIDC provider.                                                                    | `None`                     | Optional            |
+| `OIDC_RENEW_ID_TOKEN_EXPIRY_SECONDS`          | The length of time it takes for an id token to expire in seconds.                                                                    | 900                     | Optional            |
