@@ -25,6 +25,8 @@ services:
       #- OIDC_OP_TOKEN_ENDPOINT=https://authentik.example.com/application/o/token/
       # User info endpoint URL of the OIDC provider
       #- OIDC_OP_USER_ENDPOINT=https://authentik.example.com/application/o/userinfo/
+      # Length of time it takes for an id token to expire in seconds	
+      #- OIDC_RENEW_ID_TOKEN_EXPIRY_SECONDS=900
     restart: unless-stopped
     expose:
       - 8000
