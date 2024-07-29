@@ -6,6 +6,25 @@ services:
     environment:
       - DOMAIN=myservice.example.com # your FQDN or IP; used to define ALLOWED_HOSTS and CSRF_TRUSTED_ORIGINS
       - SECURE_COOKIES=False # set to True if you use a reverse proxy with tls; enables secure cookie flag and hsts
+      # ------- OPTIONAL OIDC AUTH --------
+      # Set to 'True' to enable OIDC authentication
+      #- OIDC_ENABLED=True
+      # Set to 'True' to allow the creation of new users through OIDC
+      #- OIDC_CREATE_USER=True
+      # The signing algorithm used by the OIDC provider (e.g., RS256, HS256)
+      #- OIDC_RP_SIGN_ALGO=RS256
+      # URL of the JWKS endpoint for the OIDC provider
+      #- OIDC_OP_JWKS_ENDPOINT=https://authentik.example.com/application/o/vouchervault/jwks/
+      # Client ID for your OIDC RP
+      #- OIDC_RP_CLIENT_ID=vouchervault
+      # Client secret for your OIDC RP
+      #- OIDC_RP_CLIENT_SECRET=super-secure-secret-key
+      # Authorization endpoint URL of the OIDC provider
+      #- OIDC_OP_AUTHORIZATION_ENDPOINT=https://authentik.example.com/application/o/authorize/
+      # Token endpoint URL of the OIDC provider
+      #- OIDC_OP_TOKEN_ENDPOINT=https://authentik.example.com/application/o/token/
+      # User info endpoint URL of the OIDC provider
+      #- OIDC_OP_USER_ENDPOINT=https://authentik.example.com/application/o/userinfo/
     restart: unless-stopped
     expose:
       - 8000
