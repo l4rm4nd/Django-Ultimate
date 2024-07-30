@@ -79,7 +79,7 @@ Django Ultimate template takes various environment variables to configure `setti
 | `POSTGRES_PORT`                  | Port number for the PostgreSQL database.                                                                        | `5432`                     | Optional            |
 | `POSTGRES_USER`                  | PostgreSQL database user.                                                                                       | `django-ultimate`          | Optional            |
 | `POSTGRES_PASSWORD`              | PostgreSQL database password.                                                                                   | `django-ultimate`          | Optional            |
-| `POSTGRES_DB`                    | PostgreSQL database name.                                                                                       | `None`                     | Optional            |
+| `POSTGRES_DB`                    | PostgreSQL database name.                                                                                       | `django-ultimate`          | Optional            |
 
 ## 📷 Screenshots
 
