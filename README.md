@@ -1,7 +1,7 @@
 <div align="center" width="100%">
     <h1>Django-Ultimate</h1>
     <img width="150px" src="myapp/static/assets/img/logo.png">
-    <p>The ultimative Django 4 Boostrap Template based on NiceAdmin and Django-Celery-Beat with support for OIDC SSO.</p><p>
+    <p>The ultimative Django 4 Boostrap Template</p><p>
     <a target="_blank" href="https://github.com/l4rm4nd"><img src="https://img.shields.io/badge/maintainer-LRVT-orange" /></a>
     <a target="_blank" href="https://GitHub.com/l4rm4nd/Django-Ultimate/graphs/contributors/"><img src="https://img.shields.io/github/contributors/l4rm4nd/Django-Ultimate.svg" /></a>
     <a target="_blank" href="https://github.com/PyCQA/bandit"><img src="https://img.shields.io/badge/security-bandit-yellow.svg"/></a><br>
