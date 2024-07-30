@@ -25,7 +25,7 @@ perform_migrations() {
     python manage.py migrate myapp
 
     if [ -z "$DB_INITIALIZED" ]; then
-        echo "[~] Creating periodic tasks for expiry notifications."
+        echo "[~] Creating default periodic task entry."
         python manage.py create_default_periodic_tasks
         echo "------------------------------------"
         admin_password=$(generate_random_string)
