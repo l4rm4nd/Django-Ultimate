@@ -16,7 +16,8 @@
 
 ## ⭐ Features
 
-- Django Framework (v5) + SQLite3 Database
+- Django Framework (v5)
+- SQLite3 and PostgreSQL database support
 - Nice Admin Bootstrap Template with light/dark theme
 - Django-Celery-Beat for Periodic Task Execution
 - OIDC Single-Sign-On via `mozilla-django-oidc`
@@ -72,7 +73,13 @@ Django Ultimate template takes various environment variables to configure `setti
 | `OIDC_OP_AUTHORIZATION_ENDPOINT` | Authorization endpoint URL of the OIDC provider.                                                                | `None`                     | Optional            |
 | `OIDC_OP_TOKEN_ENDPOINT`         | Token endpoint URL of the OIDC provider.                                                                        | `None`                     | Optional            |
 | `OIDC_OP_USER_ENDPOINT`          | User info endpoint URL of the OIDC provider.                                                                    | `None`                     | Optional            |
-| `OIDC_RENEW_ID_TOKEN_EXPIRY_SECONDS`          | The length of time it takes for an id token to expire in seconds.                                                                    | 900                     | Optional            |
+| `OIDC_RENEW_ID_TOKEN_EXPIRY_SECONDS` | The length of time it takes for an id token to expire in seconds.                                           | 900                        | Optional            |
+| `DB_ENGINE`                      | Database engine to use (e.g., `postgres` for PostgreSQL or `sqlite3` for SQLite3).                              | `sqlite3`                  | Optional            |
+| `POSTGRES_HOST`                  | Hostname for the PostgreSQL database.                                                                           | `db`                       | Optional            |
+| `POSTGRES_PORT`                  | Port number for the PostgreSQL database.                                                                        | `5432`                     | Optional            |
+| `POSTGRES_USER`                  | PostgreSQL database user.                                                                                       | `django-ultimate`          | Optional            |
+| `POSTGRES_PASSWORD`              | PostgreSQL database password.                                                                                   | `django-ultimate`          | Optional            |
+| `POSTGRES_DB`                    | PostgreSQL database name.                                                                                       | `None`                     | Optional            |
 
 ## 📷 Screenshots
 

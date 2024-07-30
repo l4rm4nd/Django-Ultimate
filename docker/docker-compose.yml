@@ -1,8 +1,8 @@
 services:
 
-  myservice:
+  app:
     image: username/dockerhubrepo:latest # pin a minor version series tag instead of latest
-    container_name: myservice
+    container_name: django-ultimate-app
     environment:
       - DOMAIN=myservice.example.com # your FQDN or IP; used to define ALLOWED_HOSTS and CSRF_TRUSTED_ORIGINS
       - SECURE_COOKIES=False # set to True if you use a reverse proxy with tls; enables secure cookie flag and hsts
@@ -27,6 +27,13 @@ services:
       #- OIDC_OP_USER_ENDPOINT=https://authentik.example.com/application/o/userinfo/
       # Length of time it takes for an id token to expire in seconds	
       #- OIDC_RENEW_ID_TOKEN_EXPIRY_SECONDS=900
+      # ------- PSQL DB ENVS --------
+      #- DB_ENGINE=postgres
+      #- POSTGRES_USER=psql
+      #- POSTGRES_PASSWORD=psql
+      #- POSTGRES_DB=psql
+      #- POSTGRES_HOST=db
+      #- POSTGRES_PORT=5432
     restart: unless-stopped
     expose:
       - 8000
@@ -53,6 +60,21 @@ services:
     #networks:
     #  - proxy
     
+#  db:
+#    container_name: django-ultimate-psql
+#    image: postgres:16-alpine
+#    restart: unless-stopped
+#    expose:
+#      - 5432
+#    volumes:
+#      - ./volume-data/database/psql:/var/lib/postgresql/data/
+#    environment:
+#      - POSTGRES_USER=psql
+#      - POSTGRES_PASSWORD=psql
+#      - POSTGRES_DB=psql    
+#    #networks:
+#    #  - proxy
+
 #networks:
 #  proxy:
 #    external: true      
