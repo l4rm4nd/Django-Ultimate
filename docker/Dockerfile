@@ -30,7 +30,7 @@ COPY /docker/entrypoint.sh /opt/app/docker/entrypoint.sh
 RUN pip install --upgrade pip && \
     pip3 install -r requirements.txt --cache-dir /opt/app/pip_cache && \
     chown -R www-data:www-data /opt/app && \
-    chmod -R 770 /opt/app && \
+    chmod -R 750 /opt/app && \
     chmod +x /opt/app/docker/entrypoint.sh
     
 # run container as low privileged user
