@@ -208,7 +208,6 @@ if OIDC_ENABLED:
     OIDC_OP_USER_ENDPOINT = os.environ.get('OIDC_OP_USER_ENDPOINT')
     OIDC_RENEW_ID_TOKEN_EXPIRY_SECONDS = os.environ.get('OIDC_RENEW_ID_TOKEN_EXPIRY_SECONDS', 900)
     OIDC_USERNAME_ALGO = 'myapp.utils.generate_username'
-    ALLOW_LOGOUT_GET_METHOD = True
 
     # Add 'mozilla_django_oidc.middleware.SessionRefresh' to INSTALLED_APPS
     INSTALLED_APPS.append('mozilla_django_oidc')
