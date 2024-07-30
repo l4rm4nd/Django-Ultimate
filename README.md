@@ -1,7 +1,7 @@
 <div align="center" width="100%">
     <h1>Django-Ultimate</h1>
     <img width="150px" src="myapp/static/assets/img/logo.png">
-    <p>The ultimative Django 4 Boostrap Template based on NiceAdmin2 and Django-Celery-Beat with support for OIDC SSO.</p><p>
+    <p>The ultimative Django 4 Boostrap Template based on NiceAdmin and Django-Celery-Beat with support for OIDC SSO.</p><p>
     <a target="_blank" href="https://github.com/l4rm4nd"><img src="https://img.shields.io/badge/maintainer-LRVT-orange" /></a>
     <a target="_blank" href="https://GitHub.com/l4rm4nd/Django-Ultimate/graphs/contributors/"><img src="https://img.shields.io/github/contributors/l4rm4nd/Django-Ultimate.svg" /></a>
     <a target="_blank" href="https://github.com/PyCQA/bandit"><img src="https://img.shields.io/badge/security-bandit-yellow.svg"/></a><br>
@@ -16,8 +16,8 @@
 
 ## ⭐ Features
 
-- Django Framework (v4)
-- SQLite3 Database
+- Django Framework (v4) + SQLite3 Database
+- Nice Admin Bootstrap Template with light/dark theme
 - Django-Celery-Beat for Periodic Task Execution
 - OIDC Single-Sign-On via `mozilla-django-oidc`
 - Custom Login Panel with support for local auth and OIDC SSO
@@ -64,7 +64,7 @@ Django Ultimate template takes various environment variables to configure `setti
 | `REDIS_HOST`                     | Defines the Redis instance to use for Django-Celery-Beat task processing.                                       | `redis`                    | Optional            |
 | `OIDC_ENABLED`                   | Set to `True` to enable OIDC authentication.                                                                    | `False`                    | Optional            |
 | `OIDC_CREATE_USER`               | Set to `True` to allow the creation of new users through OIDC.                                                  | `True`                     | Optional            |
-| `OIDC_RP_SIGN_ALGO`              | The signing algorithm used by the OIDC provider (e.g., RS256, HS256).                                           | `RS256`                    | Optional            |
+| `OIDC_RP_SIGN_ALGO`              | The signing algorithm used by the OIDC provider (e.g., RS256, HS256).                                           | `HS256`                    | Optional            |
 | `OIDC_RP_IDP_SIGN_KEY`           | The signing key used by the OIDC provider. If RS256 signing algo is used, either this or `OIDC_OP_JWKS_ENDPOINT` must be defined.                                                   | `None`                     | Optional            |
 | `OIDC_OP_JWKS_ENDPOINT`          | URL of the JWKS endpoint for the OIDC provider. If RS256 signing algo is used, either this or `OIDC_RP_IDP_SIGN_KEY` must be defined.                                                                | `None`                     | Optional            |
 | `OIDC_RP_CLIENT_ID`              | Client ID for your OIDC RP.                                                                                     | `None`                     | Optional            |
@@ -73,3 +73,9 @@ Django Ultimate template takes various environment variables to configure `setti
 | `OIDC_OP_TOKEN_ENDPOINT`         | Token endpoint URL of the OIDC provider.                                                                        | `None`                     | Optional            |
 | `OIDC_OP_USER_ENDPOINT`          | User info endpoint URL of the OIDC provider.                                                                    | `None`                     | Optional            |
 | `OIDC_RENEW_ID_TOKEN_EXPIRY_SECONDS`          | The length of time it takes for an id token to expire in seconds.                                                                    | 900                     | Optional            |
+
+## 📷 Screenshots
+
+![PoC](https://github.com/user-attachments/assets/19a06770-fa54-4ce9-8934-da838a721650)
+
+![image](https://github.com/user-attachments/assets/b86093ec-4677-41a9-9e62-3dfde1309738)
