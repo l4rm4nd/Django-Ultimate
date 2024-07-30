@@ -59,7 +59,7 @@ services:
     restart: unless-stopped
     #networks:
     #  - proxy
-    
+
 #  db:
 #    container_name: django-ultimate-psql
 #    image: postgres:16-alpine
