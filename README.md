@@ -17,6 +17,7 @@
 ## ⭐ Features
 
 - Django Framework (v5)
+- Productive UWSGI webserver
 - SQLite3 and PostgreSQL database support
 - Nice Admin Bootstrap Template with light/dark theme
 - Django-Celery-Beat for Periodic Task Execution
