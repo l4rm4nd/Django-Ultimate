@@ -59,4 +59,4 @@ celery -A myproject beat -l info --detach --scheduler django_celery_beat.schedul
 
 # Spawn the web server
 echo "[~] Spawning the application server"
-python manage.py runserver 0.0.0.0:8000 --insecure
+uwsgi --ini docker/docker_uwsgi.ini
