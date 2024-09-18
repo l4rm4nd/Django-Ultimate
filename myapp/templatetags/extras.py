@@ -9,3 +9,5 @@ register = template.Library()
 def env(key):
     if key == "OIDC_ENABLED":
         return settings.OIDC_ENABLED
+    if key == "VERSION":
+        return settings.VERSION        
