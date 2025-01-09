@@ -159,10 +159,20 @@
             <button type="submit" class="btn btn-secondary"><i class="bi bi-person-gear toggle-sidebar-btn"></i> Admin Panel</button>
         </form>
     </div>
+    {% if not "OIDC_ENABLED"|env %}
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('username').focus();
         });
     </script>
+    {% endif %}
+
+    {% if "OIDC_AUTOLOGIN"|env %}
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+                window.location.href = "{% url 'oidc_authentication_init' %}?next={{next}}";
+        });
+    </script>
+    {% endif %}
 </body>
 </html>
