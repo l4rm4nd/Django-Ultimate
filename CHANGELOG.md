@@ -1,3 +1,10 @@
+## [0.7.0](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.6.1...v0.7.0) (2025-01-09)
+
+
+### Features
+
+* support oidc autologin ([5f37f7c](https://github.com/l4rm4nd/Django-Ultimate/commit/5f37f7c8f282d78cb2626b8d7642b387d2a73d4c))
+
 ## [0.6.1](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.6.0...v0.6.1) (2024-12-06)
 
 
