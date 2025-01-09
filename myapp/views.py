@@ -13,6 +13,13 @@ from .forms import *
 from .models import *
 
 @require_GET
+def post_logout(request):
+    if request.user.is_authenticated:
+        return redirect('dashboard')
+    else:
+        return render(request, 'registration/post-logout.html')
+
+@require_GET
 @login_required
 def dashboard(request):
     user = request.user

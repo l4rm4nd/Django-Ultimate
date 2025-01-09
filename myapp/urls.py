@@ -9,6 +9,7 @@ from django.contrib import admin
 urlpatterns = [
     path('', views.dashboard, name="dashboard"),
     path('logout/', auth_views.LogoutView.as_view(), name='logout'),
+    path('post-logout/', views.post_logout, name='post_logout'),
 ]
 
 admin.site.site_header = "Site-Header"
