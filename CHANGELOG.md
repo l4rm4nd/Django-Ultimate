@@ -1,3 +1,10 @@
+## [0.7.1](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.0...v0.7.1) (2025-01-15)
+
+
+### Bug Fixes
+
+* bump django ([7db14e6](https://github.com/l4rm4nd/Django-Ultimate/commit/7db14e61254de43d5d7b4e3f61b37640485c7269))
+
 ## [0.7.0](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.6.1...v0.7.0) (2025-01-09)
 
 
