@@ -16,5 +16,6 @@ django-celery-beat==2.7.0
 
 # OIDC
 mozilla-django-oidc==4.0.1
+josepy==2.0.0
 
 # APP SPECIFIC
