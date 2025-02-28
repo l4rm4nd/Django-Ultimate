@@ -246,8 +246,7 @@ if OIDC_ENABLED:
 
     # Add 'mozilla_django_oidc.middleware.SessionRefresh' to MIDDLEWARE
     # https://mozilla-django-oidc.readthedocs.io/en/stable/installation.html#validate-id-tokens-by-renewing-them
-    # disabled atm, as it leads to a circular import with container error "partially initialized module 'josepy'"
-    #MIDDLEWARE.append('mozilla_django_oidc.middleware.SessionRefresh')
+    MIDDLEWARE.append('mozilla_django_oidc.middleware.SessionRefresh')
 
     # Fix http callback issue in mozilla-django-oidc by forcing https; https://github.com/mozilla/mozilla-django-oidc/issues/417
     # OIDC should only be setup behind a TLS reverse proxy anyways
