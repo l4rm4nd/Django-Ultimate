@@ -1,3 +1,10 @@
+## [0.7.4](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.3...v0.7.4) (2025-03-11)
+
+
+### Bug Fixes
+
+* bump Django ([6f09c7f](https://github.com/l4rm4nd/Django-Ultimate/commit/6f09c7f87d8c7ed9b5566ab78333a572d3dcb71f))
+
 ## [0.7.3](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.2...v0.7.3) (2025-02-20)
 
 
@@ -25,11 +32,4 @@
 ### Features
 
 * support oidc autologin ([5f37f7c](https://github.com/l4rm4nd/Django-Ultimate/commit/5f37f7c8f282d78cb2626b8d7642b387d2a73d4c))
-
-## [0.6.1](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.6.0...v0.6.1) (2024-12-06)
-
-
-### Bug Fixes
-
-* **deps:** upgrade django ([a96f6cd](https://github.com/l4rm4nd/Django-Ultimate/commit/a96f6cd47ff7ed37deb8c9062fcafee26ed64bf5))
 
