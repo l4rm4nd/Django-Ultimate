@@ -1,3 +1,10 @@
+## [0.7.5](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.4...v0.7.5) (2025-04-18)
+
+
+### Bug Fixes
+
+* bump django and celery-beat ([a566bde](https://github.com/l4rm4nd/Django-Ultimate/commit/a566bde3faea9f92136a880ce2b8efa32ddb3fc4))
+
 ## [0.7.4](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.3...v0.7.4) (2025-03-11)
 
 
@@ -25,11 +32,4 @@
 ### Bug Fixes
 
 * bump django ([7db14e6](https://github.com/l4rm4nd/Django-Ultimate/commit/7db14e61254de43d5d7b4e3f61b37640485c7269))
-
-## [0.7.0](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.6.1...v0.7.0) (2025-01-09)
-
-
-### Features
-
-* support oidc autologin ([5f37f7c](https://github.com/l4rm4nd/Django-Ultimate/commit/5f37f7c8f282d78cb2626b8d7642b387d2a73d4c))
 
