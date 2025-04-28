@@ -1,3 +1,10 @@
+## [0.7.9](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.8...v0.7.9) (2025-04-28)
+
+
+### Bug Fixes
+
+* support csp env management ([1b16ef7](https://github.com/l4rm4nd/Django-Ultimate/commit/1b16ef7a15415aeff5ea2d288a2bc8411bcb6caf))
+
 ## [0.7.8](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.7...v0.7.8) (2025-04-18)
 
 
@@ -25,11 +32,4 @@
 ### Bug Fixes
 
 * bump django and celery-beat ([a566bde](https://github.com/l4rm4nd/Django-Ultimate/commit/a566bde3faea9f92136a880ce2b8efa32ddb3fc4))
-
-## [0.7.4](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.3...v0.7.4) (2025-03-11)
-
-
-### Bug Fixes
-
-* bump Django ([6f09c7f](https://github.com/l4rm4nd/Django-Ultimate/commit/6f09c7f87d8c7ed9b5566ab78333a572d3dcb71f))
 
