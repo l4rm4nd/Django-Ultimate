@@ -1,3 +1,10 @@
+## [0.7.11](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.10...v0.7.11) (2025-05-19)
+
+
+### Bug Fixes
+
+* add localization ([4c1ac79](https://github.com/l4rm4nd/Django-Ultimate/commit/4c1ac7988846097fae1939e5d939bf6857342284))
+
 ## [0.7.10](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.9...v0.7.10) (2025-05-16)
 
 
@@ -25,11 +32,4 @@
 ### Bug Fixes
 
 * Update conventional-commits.yml ([e199a06](https://github.com/l4rm4nd/Django-Ultimate/commit/e199a069ae062a9fc3ca2bb4b93c1b067414efda))
-
-## [0.7.6](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.5...v0.7.6) (2025-04-18)
-
-
-### Bug Fixes
-
-* ci ([1c1b84f](https://github.com/l4rm4nd/Django-Ultimate/commit/1c1b84f22bfb961a819030d39a8261dbbf28dbc0))
 
