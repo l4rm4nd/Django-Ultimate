@@ -16,6 +16,7 @@ import os
 import pytz
 import secrets
 from django.utils.html import escape
+from django.utils.translation import gettext_lazy as _
 from csp.constants import NONE, SELF, UNSAFE_INLINE, UNSAFE_EVAL
 
 # Load environment variables from .env file
@@ -112,6 +113,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -197,6 +199,17 @@ USE_I18N = True
 USE_L10N = True
 USE_TZ = True
 
+LANGUAGES = [
+    ('en', _('English')),
+    ('de', _('German')),
+    ('fr', _('French')),
+    ('it', _('Italian')),
+]
+
+LOCALE_PATHS = [
+    os.path.join(BASE_DIR, 'locale')
+]
+
 # Celery configuration
 LOGS_DIR = os.path.join(BASE_DIR, 'logs')
 
@@ -225,6 +238,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/post-logout/'
+ALLOW_LOGOUT_GET_METHOD = True
 
 WSGI_APPLICATION = 'myproject.wsgi.application'
 
