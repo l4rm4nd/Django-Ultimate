@@ -1,3 +1,10 @@
+## [0.7.13](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.12...v0.7.13) (2025-05-20)
+
+
+### Bug Fixes
+
+* copy locale ([807f51c](https://github.com/l4rm4nd/Django-Ultimate/commit/807f51c9c33dfca87ccc162e8478b0c10268ef00))
+
 ## [0.7.12](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.11...v0.7.12) (2025-05-20)
 
 
@@ -25,11 +32,4 @@
 ### Bug Fixes
 
 * support csp env management ([1b16ef7](https://github.com/l4rm4nd/Django-Ultimate/commit/1b16ef7a15415aeff5ea2d288a2bc8411bcb6caf))
-
-## [0.7.8](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.7...v0.7.8) (2025-04-18)
-
-
-### Bug Fixes
-
-* Update conventional-commits.yml ([7858f83](https://github.com/l4rm4nd/Django-Ultimate/commit/7858f836f2b23097d65d0d7677c9bac1f3a3a481))
 
