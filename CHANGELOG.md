@@ -1,3 +1,10 @@
+## [0.7.12](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.11...v0.7.12) (2025-05-20)
+
+
+### Bug Fixes
+
+* type cast OIDC seconds ([31f424b](https://github.com/l4rm4nd/Django-Ultimate/commit/31f424bc3a96d4e1fd0adc4b7713ac1b69eab3ce))
+
 ## [0.7.11](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.10...v0.7.11) (2025-05-19)
 
 
@@ -25,11 +32,4 @@
 ### Bug Fixes
 
 * Update conventional-commits.yml ([7858f83](https://github.com/l4rm4nd/Django-Ultimate/commit/7858f836f2b23097d65d0d7677c9bac1f3a3a481))
-
-## [0.7.7](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.6...v0.7.7) (2025-04-18)
-
-
-### Bug Fixes
-
-* Update conventional-commits.yml ([e199a06](https://github.com/l4rm4nd/Django-Ultimate/commit/e199a069ae062a9fc3ca2bb4b93c1b067414efda))
 
