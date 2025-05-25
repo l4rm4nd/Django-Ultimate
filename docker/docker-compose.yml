@@ -47,8 +47,8 @@ services:
       #- POSTGRES_HOST=db
       #- POSTGRES_PORT=5432
       # ------- CELERY ENVS --------
-      #- CELERY_PREFETCH_MULTIPLIER=1
-      #- CELERY_CONCURRENCY=1
+      #- CELERY_WORKER_PREFETCH_MULTIPLIER=1
+      #- CELERY_WORKER_CONCURRENCY=1
     restart: unless-stopped
     expose:
       - 8000
