@@ -23,6 +23,7 @@ perform_migrations() {
     python manage.py makemigrations myapp
     python manage.py migrate
     python manage.py migrate myapp
+    python manage.py collectstatic --no-input --verbosity=0
 
     if [ -z "$DB_INITIALIZED" ]; then
         echo "[~] Creating default periodic task entry."
