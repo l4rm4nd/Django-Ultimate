@@ -1,3 +1,10 @@
+## [0.7.18](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.17...v0.7.18) (2025-05-25)
+
+
+### Bug Fixes
+
+* delete myapp/static/admin directory ([f9bcb13](https://github.com/l4rm4nd/Django-Ultimate/commit/f9bcb13bb423541feb021c002a768c93070a74f3))
+
 ## [0.7.17](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.16...v0.7.17) (2025-05-25)
 
 
@@ -25,11 +32,4 @@
 ### Bug Fixes
 
 * adjustable celery config ([70dbbfd](https://github.com/l4rm4nd/Django-Ultimate/commit/70dbbfdc4689d33525ff0f4b23d1f8478d3e4827))
-
-## [0.7.13](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.12...v0.7.13) (2025-05-20)
-
-
-### Bug Fixes
-
-* copy locale ([807f51c](https://github.com/l4rm4nd/Django-Ultimate/commit/807f51c9c33dfca87ccc162e8478b0c10268ef00))
 
