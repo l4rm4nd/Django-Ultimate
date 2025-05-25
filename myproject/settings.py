@@ -211,6 +211,8 @@ LOCALE_PATHS = [
 ]
 
 # Celery configuration
+# http://docs.celeryproject.org/en/latest/configuration.html
+
 LOGS_DIR = os.path.join(BASE_DIR, 'logs')
 
 REDIS_URL = os.environ.get('REDIS_URL')
