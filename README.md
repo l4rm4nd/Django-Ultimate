@@ -85,6 +85,8 @@ Django Ultimate template takes various environment variables to configure `setti
 | `POSTGRES_USER`                  | PostgreSQL database user.                                                                                       | `django-ultimate`          | Optional            |
 | `POSTGRES_PASSWORD`              | PostgreSQL database password.                                                                                   | `django-ultimate`          | Optional            |
 | `POSTGRES_DB`                    | PostgreSQL database name.                                                                                       | `django-ultimate`          | Optional            |
+| `CELERY_WORKER_CONCURRENCY`           | Celery worker concurrency.                                                                                 | `2`                        | Optional            |
+| `CELERY_WORKER_PREFETCH_MULTIPLIER`   | Celery worker prefetch multiplier.                                                                         | `4`                        | Optional            |
 
 ## 📷 Screenshots
 
