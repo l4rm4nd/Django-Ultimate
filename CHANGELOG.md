@@ -1,3 +1,10 @@
+## [0.7.16](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.15...v0.7.16) (2025-05-25)
+
+
+### Bug Fixes
+
+* Update settings.py ([e4f863d](https://github.com/l4rm4nd/Django-Ultimate/commit/e4f863d9a6ba86642bc2248af36de7bc881730d8))
+
 ## [0.7.15](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.14...v0.7.15) (2025-05-25)
 
 
@@ -25,11 +32,4 @@
 ### Bug Fixes
 
 * type cast OIDC seconds ([31f424b](https://github.com/l4rm4nd/Django-Ultimate/commit/31f424bc3a96d4e1fd0adc4b7713ac1b69eab3ce))
-
-## [0.7.11](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.10...v0.7.11) (2025-05-19)
-
-
-### Bug Fixes
-
-* add localization ([4c1ac79](https://github.com/l4rm4nd/Django-Ultimate/commit/4c1ac7988846097fae1939e5d939bf6857342284))
 
