@@ -1,3 +1,10 @@
+## [0.7.19](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.18...v0.7.19) (2025-06-09)
+
+
+### Bug Fixes
+
+* bump django ([b58cfe4](https://github.com/l4rm4nd/Django-Ultimate/commit/b58cfe40445783cc30cbc7f29898229c65d13a95))
+
 ## [0.7.18](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.17...v0.7.18) (2025-05-25)
 
 
@@ -25,11 +32,4 @@
 ### Bug Fixes
 
 * Update settings.py ([51c4a21](https://github.com/l4rm4nd/Django-Ultimate/commit/51c4a21248f752618e36e48a22269b705b5d66f7))
-
-## [0.7.14](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.13...v0.7.14) (2025-05-25)
-
-
-### Bug Fixes
-
-* adjustable celery config ([70dbbfd](https://github.com/l4rm4nd/Django-Ultimate/commit/70dbbfdc4689d33525ff0f4b23d1f8478d3e4827))
 
