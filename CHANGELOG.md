@@ -1,3 +1,10 @@
+## [0.7.20](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.19...v0.7.20) (2025-07-05)
+
+
+### Bug Fixes
+
+* bump django ([7449571](https://github.com/l4rm4nd/Django-Ultimate/commit/7449571323879181fdac47df213d2934367e600f))
+
 ## [0.7.19](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.18...v0.7.19) (2025-06-09)
 
 
@@ -25,11 +32,4 @@
 ### Bug Fixes
 
 * Update settings.py ([e4f863d](https://github.com/l4rm4nd/Django-Ultimate/commit/e4f863d9a6ba86642bc2248af36de7bc881730d8))
-
-## [0.7.15](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.14...v0.7.15) (2025-05-25)
-
-
-### Bug Fixes
-
-* Update settings.py ([51c4a21](https://github.com/l4rm4nd/Django-Ultimate/commit/51c4a21248f752618e36e48a22269b705b5d66f7))
 
