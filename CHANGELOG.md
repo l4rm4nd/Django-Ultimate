@@ -1,3 +1,10 @@
+## [0.7.23](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.22...v0.7.23) (2025-09-17)
+
+
+### Bug Fixes
+
+* bump base image ([0d3a927](https://github.com/l4rm4nd/Django-Ultimate/commit/0d3a927633b910a4dd279732909904afc5c2480a))
+
 ## [0.7.22](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.21...v0.7.22) (2025-09-17)
 
 
@@ -25,11 +32,4 @@
 ### Bug Fixes
 
 * bump django ([b58cfe4](https://github.com/l4rm4nd/Django-Ultimate/commit/b58cfe40445783cc30cbc7f29898229c65d13a95))
-
-## [0.7.18](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.17...v0.7.18) (2025-05-25)
-
-
-### Bug Fixes
-
-* delete myapp/static/admin directory ([f9bcb13](https://github.com/l4rm4nd/Django-Ultimate/commit/f9bcb13bb423541feb021c002a768c93070a74f3))
 
