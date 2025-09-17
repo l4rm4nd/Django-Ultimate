@@ -1,3 +1,10 @@
+## [0.7.24](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.23...v0.7.24) (2025-09-17)
+
+
+### Bug Fixes
+
+* replace legacy package ([39294ca](https://github.com/l4rm4nd/Django-Ultimate/commit/39294ca35ba5153a72ab6ed9e2866f7d3604be1f))
+
 ## [0.7.23](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.22...v0.7.23) (2025-09-17)
 
 
@@ -25,11 +32,4 @@
 ### Bug Fixes
 
 * bump django ([7449571](https://github.com/l4rm4nd/Django-Ultimate/commit/7449571323879181fdac47df213d2934367e600f))
-
-## [0.7.19](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.18...v0.7.19) (2025-06-09)
-
-
-### Bug Fixes
-
-* bump django ([b58cfe4](https://github.com/l4rm4nd/Django-Ultimate/commit/b58cfe40445783cc30cbc7f29898229c65d13a95))
 
