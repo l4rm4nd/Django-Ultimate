@@ -1,7 +1,7 @@
 services:
 
   app:
-    image: username/dockerhubrepo:latest # pin a minor version series tag instead of latest
+    image: ghcr.io/username/dockerhubrepo:latest # pin a minor version series tag instead of latest
     container_name: django-ultimate-app
     environment:
       # your FQDN or IP; used to define ALLOWED_HOSTS and CSRF_TRUSTED_ORIGINS
@@ -26,11 +26,11 @@ services:
       # The signing algorithm used by the OIDC provider (e.g., RS256, HS256)
       #- OIDC_RP_SIGN_ALGO=RS256
       # URL of the JWKS endpoint for the OIDC provider
-      #- OIDC_OP_JWKS_ENDPOINT=https://authentik.example.com/application/o/vouchervault/jwks/
+      #- OIDC_OP_JWKS_ENDPOINT=https://authentik.example.com/application/o/<slug>/jwks/
       # Client ID for your OIDC RP
-      #- OIDC_RP_CLIENT_ID=vouchervault
+      #- OIDC_RP_CLIENT_ID=<client-id>
       # Client secret for your OIDC RP
-      #- OIDC_RP_CLIENT_SECRET=super-secure-secret-key
+      #- OIDC_RP_CLIENT_SECRET=<client-secret>
       # Authorization endpoint URL of the OIDC provider
       #- OIDC_OP_AUTHORIZATION_ENDPOINT=https://authentik.example.com/application/o/authorize/
       # Token endpoint URL of the OIDC provider
