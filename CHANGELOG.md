@@ -1,3 +1,10 @@
+## [0.7.27](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.26...v0.7.27) (2025-11-19)
+
+
+### Bug Fixes
+
+* disable period task creation ([dc4514b](https://github.com/l4rm4nd/Django-Ultimate/commit/dc4514b6fc526d7c566feac18962a4f7f70000f2))
+
 ## [0.7.26](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.25...v0.7.26) (2025-11-06)
 
 
@@ -25,11 +32,4 @@
 ### Bug Fixes
 
 * bump base image ([0d3a927](https://github.com/l4rm4nd/Django-Ultimate/commit/0d3a927633b910a4dd279732909904afc5c2480a))
-
-## [0.7.22](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.21...v0.7.22) (2025-09-17)
-
-
-### Bug Fixes
-
-* bump py base image ([596b309](https://github.com/l4rm4nd/Django-Ultimate/commit/596b30968e749e74860a6815e91280c59cec6e0c))
 
