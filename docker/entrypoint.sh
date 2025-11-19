@@ -26,8 +26,8 @@ perform_migrations() {
     python manage.py collectstatic --no-input --verbosity=0
 
     if [ -z "$DB_INITIALIZED" ]; then
-        echo "[~] Creating default periodic task entry."
-        python manage.py create_default_periodic_tasks
+        #echo "[~] Creating default periodic task entry."
+        #python manage.py create_default_periodic_tasks
         echo "------------------------------------"
         admin_password=$(generate_random_string)
         echo "[!!] Creating admin superuser account"
