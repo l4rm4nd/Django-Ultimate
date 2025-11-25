@@ -1,3 +1,10 @@
+## [0.7.28](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.27...v0.7.28) (2025-11-25)
+
+
+### Bug Fixes
+
+* allow multi domain declaration in DOMAIN ([e538155](https://github.com/l4rm4nd/Django-Ultimate/commit/e5381552f5f90e9c3233fc3d60204f54ec52ae68))
+
 ## [0.7.27](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.26...v0.7.27) (2025-11-19)
 
 
@@ -25,11 +32,4 @@
 ### Bug Fixes
 
 * replace legacy package ([39294ca](https://github.com/l4rm4nd/Django-Ultimate/commit/39294ca35ba5153a72ab6ed9e2866f7d3604be1f))
-
-## [0.7.23](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.22...v0.7.23) (2025-09-17)
-
-
-### Bug Fixes
-
-* bump base image ([0d3a927](https://github.com/l4rm4nd/Django-Ultimate/commit/0d3a927633b910a4dd279732909904afc5c2480a))
 
