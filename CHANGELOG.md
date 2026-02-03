@@ -1,3 +1,10 @@
+## [0.7.31](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.30...v0.7.31) (2026-02-03)
+
+
+### Bug Fixes
+
+* bump Django ([c014536](https://github.com/l4rm4nd/Django-Ultimate/commit/c014536462928be6fc1547359ebe5863e7a3c28c))
+
 ## [0.7.30](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.29...v0.7.30) (2026-01-28)
 
 
@@ -25,11 +32,4 @@
 ### Bug Fixes
 
 * disable period task creation ([dc4514b](https://github.com/l4rm4nd/Django-Ultimate/commit/dc4514b6fc526d7c566feac18962a4f7f70000f2))
-
-## [0.7.26](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.25...v0.7.26) (2025-11-06)
-
-
-### Bug Fixes
-
-* bump django ([7da4763](https://github.com/l4rm4nd/Django-Ultimate/commit/7da476384cbc5f2210a549a1521a90ed51544da7))
 
