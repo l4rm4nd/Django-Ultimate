@@ -1,3 +1,10 @@
+## [0.7.32](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.31...v0.7.32) (2026-02-28)
+
+
+### Bug Fixes
+
+* bump celery beat ([dc6ade5](https://github.com/l4rm4nd/Django-Ultimate/commit/dc6ade5239fd001dfdde5e198e5e7a5470807b1a))
+
 ## [0.7.31](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.30...v0.7.31) (2026-02-03)
 
 
@@ -25,11 +32,4 @@
 ### Bug Fixes
 
 * allow multi domain declaration in DOMAIN ([e538155](https://github.com/l4rm4nd/Django-Ultimate/commit/e5381552f5f90e9c3233fc3d60204f54ec52ae68))
-
-## [0.7.27](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.26...v0.7.27) (2025-11-19)
-
-
-### Bug Fixes
-
-* disable period task creation ([dc4514b](https://github.com/l4rm4nd/Django-Ultimate/commit/dc4514b6fc526d7c566feac18962a4f7f70000f2))
 
