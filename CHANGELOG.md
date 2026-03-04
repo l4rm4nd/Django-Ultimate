@@ -1,3 +1,10 @@
+## [0.7.33](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.32...v0.7.33) (2026-03-04)
+
+
+### Bug Fixes
+
+* bump Django ([6f03d4b](https://github.com/l4rm4nd/Django-Ultimate/commit/6f03d4b67d43538d9a4ab8595db12a978c68e2a1))
+
 ## [0.7.32](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.31...v0.7.32) (2026-02-28)
 
 
@@ -25,11 +32,4 @@
 ### Bug Fixes
 
 * bump django ([b851413](https://github.com/l4rm4nd/Django-Ultimate/commit/b851413bd6f401f1ce5a7b49aaa55b1ab3da657b))
-
-## [0.7.28](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.27...v0.7.28) (2025-11-25)
-
-
-### Bug Fixes
-
-* allow multi domain declaration in DOMAIN ([e538155](https://github.com/l4rm4nd/Django-Ultimate/commit/e5381552f5f90e9c3233fc3d60204f54ec52ae68))
 
