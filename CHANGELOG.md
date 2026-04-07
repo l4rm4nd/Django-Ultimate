@@ -1,3 +1,10 @@
+## [0.7.34](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.33...v0.7.34) (2026-04-07)
+
+
+### Bug Fixes
+
+* bump base image ([8b2bb22](https://github.com/l4rm4nd/Django-Ultimate/commit/8b2bb2293799f8846d999cfd9b7f7122c68e1b76))
+
 ## [0.7.33](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.32...v0.7.33) (2026-03-04)
 
 
@@ -25,11 +32,4 @@
 ### Bug Fixes
 
 * mozilla-oidc ([445c0c5](https://github.com/l4rm4nd/Django-Ultimate/commit/445c0c5e45717ae06bc6f3bcb4090a0324de7ff6))
-
-## [0.7.29](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.28...v0.7.29) (2025-12-04)
-
-
-### Bug Fixes
-
-* bump django ([b851413](https://github.com/l4rm4nd/Django-Ultimate/commit/b851413bd6f401f1ce5a7b49aaa55b1ab3da657b))
 
