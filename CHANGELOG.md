@@ -1,3 +1,10 @@
+## [0.7.36](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.35...v0.7.36) (2026-05-08)
+
+
+### Bug Fixes
+
+* bump libs ([523a9aa](https://github.com/l4rm4nd/Django-Ultimate/commit/523a9aa0cd6e5980f9625a7c6ae16711be6ac9e0))
+
 ## [0.7.35](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.34...v0.7.35) (2026-04-08)
 
 
@@ -25,11 +32,4 @@
 ### Bug Fixes
 
 * bump celery beat ([dc6ade5](https://github.com/l4rm4nd/Django-Ultimate/commit/dc6ade5239fd001dfdde5e198e5e7a5470807b1a))
-
-## [0.7.31](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.30...v0.7.31) (2026-02-03)
-
-
-### Bug Fixes
-
-* bump Django ([c014536](https://github.com/l4rm4nd/Django-Ultimate/commit/c014536462928be6fc1547359ebe5863e7a3c28c))
 
