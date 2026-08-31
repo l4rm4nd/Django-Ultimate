@@ -60,4 +60,4 @@ celery -A myproject beat -l info --detach --scheduler django_celery_beat.schedul
 
 # Spawn the web server
 echo "[~] Spawning the application server"
-uwsgi --ini docker/docker_uwsgi.ini
+exec uwsgi --ini docker/docker_uwsgi.ini --die-on-term
