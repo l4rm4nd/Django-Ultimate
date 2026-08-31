@@ -1,3 +1,10 @@
+## [0.7.38](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.37...v0.7.38) (2026-08-31)
+
+
+### Bug Fixes
+
+* Update entrypoint.sh ([0d4835f](https://github.com/l4rm4nd/Django-Ultimate/commit/0d4835f06393bafbef483d2d99045fcb125ff338))
+
 ## [0.7.37](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.36...v0.7.37) (2026-06-06)
 
 
@@ -25,11 +32,4 @@
 ### Bug Fixes
 
 * bump base image ([8b2bb22](https://github.com/l4rm4nd/Django-Ultimate/commit/8b2bb2293799f8846d999cfd9b7f7122c68e1b76))
-
-## [0.7.33](https://github.com/l4rm4nd/Django-Ultimate/compare/v0.7.32...v0.7.33) (2026-03-04)
-
-
-### Bug Fixes
-
-* bump Django ([6f03d4b](https://github.com/l4rm4nd/Django-Ultimate/commit/6f03d4b67d43538d9a4ab8595db12a978c68e2a1))
 
